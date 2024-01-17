@@ -1,0 +1,17 @@
+.banner-header {
+  height: 50px;
+  background-color: var(--brand);
+  background-image: url("../../../assets/icons/banner_wave.svg");
+  background-position: 0%;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  .text-header {
+    display: flex;
+    align-items: center;
+  }
+}
