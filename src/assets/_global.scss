@@ -6,3 +6,15 @@
   padding: 0;
   margin: 0;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+//global-class
+
+.flex-middle {
+  display: flex;
+  justify-content: center;
+}
