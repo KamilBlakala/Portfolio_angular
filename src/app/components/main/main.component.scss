@@ -1,0 +1,19 @@
+.main-heading {
+  height: 430px;
+  .main-heading-left {
+    width: 50%;
+    max-width: 730px;
+    text-align: center;
+    padding-right: 40px;
+    align-items: flex-start;
+  }
+  .main-heading-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    img {
+      max-height: 100%;
+    }
+  }
+}
