@@ -1,11 +1,23 @@
 .main-heading {
-  height: 430px;
+  height: 450px;
+  margin-top: 20px;
   .main-heading-left {
     width: 50%;
     max-width: 730px;
-    text-align: center;
+    text-align: left;
     padding-right: 40px;
     align-items: flex-start;
+    h1 {
+      width: 60%;
+      margin-bottom: 20px;
+      span {
+        color: var(--brand);
+      }
+    }
+    button {
+      color: var(--alice);
+      background-color: var(--brand);
+    }
   }
   .main-heading-right {
     display: flex;
@@ -14,6 +26,8 @@
     width: 50%;
     img {
       max-height: 100%;
+      border-radius: 5%;
+      border-top-left-radius: 20%;
     }
   }
 }
